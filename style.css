@@ -26,14 +26,28 @@ img {
 	opacity: 1;
 }
 
-.slider .caption {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #fff;
-	font-size: 18px;
-	padding: 10px;
-	text-align: center;
+
+#nav {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc; 
+    margin-left: 0px;
+}
+
+#nav li{
+	float: right;
+	padding: 16px;
+}
+
+#wrap {
+	position:center;
+}
+
+#header div{
+	position: center;
 }
